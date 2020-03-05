@@ -1,0 +1,16 @@
+create table student_detail
+(
+
+dob  date format('dd/mm/yyyy'),
+gender char,
+email varchar(100),
+password  varchar(100)
+);
+select *from student_detail;
+
+insert into student_detail(id,name,contact,dob,gender,email,password,maths,physics,chemistry)
+values(1006,'Atul','8604545845','1999/08/26','male','atul@gmail.com','atul1',54,45,65);cmd
+drop table student_detail;
+
+
+
